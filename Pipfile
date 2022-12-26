@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+loguru = "*"
+selenium = "*"
+webdriver-manager = "*"
+lxml = "*"
+regex = "*"
+pandas = "*"
+pymysql = "*"
+SpeechRecognition="3.8.1"
+pydub = "*"
+tensorflow = "1.13.1 "
+google-cloud-speech = "*"
+
+[dev-packages]
+black = "*"
+jupyter = "*"
+
+[requires]
+python_version = "3.10"
+python_full_version = "3.10.7"
